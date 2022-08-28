@@ -69,17 +69,12 @@ const categoryStatus = (val: boolean) => {
   // isIndeterminate.value = false
 }
 
-// 点击资源管理模块
+// 点击资源管理模块        
 const resourceStatus = (arr: number[]) => {
-  // console.log(arr);
   // const checkedCount = arr.length
   // checkAll.value = checkedCount === resourceList.value.length
   // isIndeterminate.value = checkedCount > 0 && checkedCount < resourceList.value.length
 }
-
-
-
-
 </script>
 
 <style lang = "less" scoped>
